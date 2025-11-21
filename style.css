@@ -57,6 +57,7 @@ a{
     justify-content: space-between;
     padding-top: 100px;
     padding-bottom: 100px;
+    flex-wrap: wrap;
 }
 
 .hero-left{
@@ -103,6 +104,7 @@ a{
 .cards{
     display: flex;
     gap: 60px;
+    flex-wrap: wrap;
 }
 
 .card{
@@ -142,4 +144,44 @@ a{
     font-size: 18px;
     color: #1F2937;
     font-weight: 900;
+}
+
+/*SIGN UP SECTION*/
+
+.sign-up{
+    padding: 100px 200px;
+    color: #E5E7EB;
+}
+
+.container{
+    background-color: #3882F6;
+    display: flex;
+    border-radius: 10px;
+    padding: 50px 100px;
+    justify-content: space-between;
+}
+
+.container button{
+    background-color: #3882F6;
+    border-radius: 5px;
+    padding: 0px 24px;
+    font-weight: 900;
+    color: #E5E7EB;
+    border: 2px solid white;
+    height: 35px;
+    align-self: center;
+    width: 107px;
+}
+
+.container h3{
+    margin: 0;
+    padding: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.container p{
+    margin: 0;
+    padding: 0;
+    font-size: 18px;
 }
